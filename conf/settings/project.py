@@ -18,6 +18,6 @@ EXTERNAL_APPS = [
 
 PROJECT_APPS = [
     'apps.core',
-    'apps.account.apps.AccountConfig', # Custom User Model
+    'apps.account', # Custom User Model
     'apps.web'
 ]
