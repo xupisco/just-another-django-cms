@@ -12,6 +12,7 @@ RUN apk update \
     postgresql-dev \
     gcc \
     python3-dev \
+    jpeg-dev zlib-dev libjpeg \
     musl-dev \
     yarn
     

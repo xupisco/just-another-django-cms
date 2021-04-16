@@ -27,6 +27,8 @@ if os.path.exists(env_file):
 
 # Application definition
 DJANGO_APPS = [
+    'djangocms_admin_style', # This must be here
+    'admin_shortcuts', # This must be here
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -28,3 +28,6 @@ yarn.lock
 node_modules/
 _static/build/
 _static/dist/
+
+# Assets
+_media/

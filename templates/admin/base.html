@@ -1,6 +1,7 @@
 {% extends 'admin/base.html' %}
 
-{% block extrahead %}{{ block.super }}
+{% block extrahead %}
+{{ block.super }}
 <style>
 :root {
   --primary: #79aec8;
@@ -53,13 +54,14 @@
   --object-tools-bg: var(--close-button-bg);
   --object-tools-hover-bg: var(--close-button-hover-bg);
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --primary: #333d42;
     --primary-fg: #eee;
+    --accent: #f5dd5d;
 
-    --header-bg: #121212;
+    --header-bg: #1b1b1b;
     --body-fg: #eeeeee;
     --body-bg: #222222;
     --body-quiet-color: #e0e0e0;
@@ -88,5 +90,6 @@
     --close-button-hover-bg: #666666;
   }
 }
+*/
 </style>
 {% endblock %}
