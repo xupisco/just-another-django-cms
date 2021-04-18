@@ -8,7 +8,7 @@ from conf.settings.initializers.logging import *
 from conf.settings.initializers.admin_shortcuts import *
 
 
-PROJECT_NAME = 'Hello World'
+PROJECT_NAME = 'JAD CMS'
 SECRET_KEY = ENV('SECRET_KEY')
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(ROOT_DIR, '_emails'),
