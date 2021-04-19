@@ -2,7 +2,7 @@
 It should be pretty self explanatory, let me know if you need any help!
 
 ### Docker usage
-0. Rename `.env.example` to `.env`
+0. Rename `.env.example` to `.env` (added)
 1. Run `docker-compose build`
 2. Run `docker-compose up -d`
 3. [optional] Run `docker-compose exec web python manage.py createsuperuser`
