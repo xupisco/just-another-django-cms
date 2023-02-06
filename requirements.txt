@@ -7,4 +7,4 @@ djangocms-admin-style
 django-admin-shortcuts
 django-filer
 django-environ==0.4.5
-django-webpack-loader==0.7.0
+django-webpack-loader==1.8.1
